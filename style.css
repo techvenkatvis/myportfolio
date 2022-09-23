@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    display: flex;
+}
+.side-nav{
+    width: 300px;
+    height: 100vh;
+    background: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.logo-image{
+        text-align: center;
+        padding-top: 20px;
+}
+.image{
+    border-radius: 50%;
+    box-shadow: 1px 0px 7px 7px rgb(114 90 90 / 75%);
+}
+.heading-name{
+    text-align: center;
+    color: #fff;
+    padding: 16px;
+}
+/* .heading-name:hover{
+    color: rgb(246, 164, 235);
+     transition: all 0.9s ease-out;
+}
+.first-head:hover{
+    color: rgb(247, 187, 239);
+     transition: all 0.9s ease-out;
+}
+.paragraph:hover{
+    color: rgb(247, 187, 239);
+    transition: all 1.0s ease-out;
+} */
+.icons{
+    font-size: 12px;
+}
+.icons i{
+    margin-left: 2rem;
+    box-shadow: 1px 0px 7px 7px rgb(61 43 43 / 75%);
+    color: rgba(156, 127, 127, 0.61);
+    border: none;
+}
+ul{
+    margin-top: 5rem;
+}
+ul li:hover a,
+ul li:hover i {
+  color: rgb(199, 75, 230);
+  transition: all 0.5s ease-out;
+}
+li i {
+    color: #fff;
+    margin-left: 3rem;
+}
+li a{
+    font-size: 18px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 1rem 0 2rem 1rem;
+    color: rgba(255, 255, 255, 0.788);
+}
+.nav-end{
+      text-align: center;
+      align-content: flex-end;
+      margin-top: 6rem;
+}
+.nav-end p{
+    color: #fff;
+}
+.nav-end b{
+    color: rgb(0, 140, 255);
+}
+.main-content{
+    width: 100%;
+    height: 100vh;
+    margin-left: 300px;
+}
+.bg-img{
+    height: 100%;
+    width: 100%;
+    background: url(venkat1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.blue{
+    width: 15%;
+    border: 2px solid rgb(0, 140, 255);
+}
+.contents{
+    position: absolute;
+    top: 35%;
+    left: 70%;
+    font-size: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 12px;
+}
+.paragraph{
+    font-size: 30px;
+}
+.wrap{
+    display: flex;
+}
+.paras{
+    align-self: center;
+}
+.flexitems{
+    display: flex;
+}
+.group-2{
+    display: flex;
+}
+.sub-content{
+    padding: 3rem;
+    line-height: 1.6;
+}
+.para-1{
+    width: 95%;
+    margin-bottom: 15px;
+}
+.hr-1{
+    margin: 10px 0px 15px 0px;
+    width: 3%;
+    border: 2px solid rgb(0, 140, 255);
+}
+i {
+    color: rebeccapurple;
+    margin-right: 10px;
+}
+.texts{
+    padding-left: 25px;
+    line-height: 2.55;
+}
+.image-2 img{
+    display: block;
+}
+.flex2st{
+    margin-left: 5rem;
+}
+.span{
+    margin: 0px 10px 0px 5px;
+}
+.span1{
+    margin: 0px 10px 0px 9px;
+}
+.span2{
+    margin: 0px 10px 0px 25px;
+}
+.span3{
+    margin: 0px 10px 0px 45px;
+}
+.span4{
+    margin: 0px 10px 0px 52px;
+}
+.span5{
+    margin: 0px 10px 0px 25px;
+}
+.span6{
+    margin: 0px 10px 0px 32px;
+}
+.span7{
+    margin: 0px 10px 0px 5px;
+}
+.skill-1{
+    margin: 2rem 0rem 5rem 0rem;
+}
+.joins{
+    display: flex;
+}
+.join-2{
+    margin-left: 10rem;
+}
+.join-1 h6{
+    display: inline;
+}
+.join-1 .level-1{
+    margin-left: 26rem;
+}
+.join-1 .level-2{
+    margin-left: 27rem;
+}
+.join-1 .level-3{
+    margin-left: 24rem;
+}
+.join-2 .level-4{
+    margin-left: 26.5rem;
+}
+.join-2 .level-5{
+    margin-left: 22rem;
+}
+.join-2 .level-6{
+    margin-left: 24rem;
+}
+
+.join-2 h6{
+    display: inline;
+}
+.progressbar{
+    width: 90%;
+    background-color: rgb(0, 140, 255);
+}
+.process{
+    background-color: rgba(0, 0, 0, 0.082);
+    height: 1rem;
+    width: 30rem;
+    margin-bottom: 1rem;
+}
+.progressbar1{
+    width: 70%;
+    background-color: rgb(0, 140, 255);
+}
+.progressbar2{
+    width: 40%;
+    background-color: rgb(0, 140, 255);
+}
+.progressbar3{
+    width: 30%;
+    background-color: rgb(0, 140, 255);
+}
+.progressbar4{
+    width: 40%;
+    background-color: rgb(0, 140, 255);
+}
+.progressbar5{
+    width: 60%;
+    background-color: rgb(0, 140, 255);
+}
+.group-1 {
+    margin-bottom: 2rem;
+}
+.bios{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.data-1{
+    width: 50%;
+}
+.data-2{
+    width: 50%;
+}
+.year{
+    background-color: rgb(172 206 224 / 73%);
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+}
+.apps{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.apps a{
+    text-decoration: none;
+    padding: 5px;
+}
+.services{
+    margin-top: 2rem;
+}
+.merge{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.maintns{
+    display: flex;
+    justify-content: space-between;
+}
+.inners{
+    display: flex;
+}
+.row22{
+    margin-left: 12px;
+}
+.row11 input{
+    height: 40px;
+    width: 300px;
+}
+.row22 input{
+    height: 40px;
+    width: 300px;
+}
+.row33 input{
+    height: 40px;
+    width: 610px;
+}
+.areas textarea{
+    height: 230px;
+    width: 610px;
+}
+textarea{
+    resize: none;
+}
+button{
+    background-color: rgb(223, 223, 238);
+    padding: 15px 20px 15px 20px;
+    border: none;
+}
